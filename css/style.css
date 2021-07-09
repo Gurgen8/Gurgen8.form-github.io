@@ -1,0 +1,256 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__div .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+  padding: 50px 100px 50px 100px;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
+}
+
+.form__div .form .form__control {
+  position: relative;
+}
+
+.form__div .form .form__control i {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  visibility: hidden;
+  font-size: 18px;
+}
+
+.form__div .form .form__control i:nth-child(1) {
+  color: red;
+  right: -10px;
+}
+
+.form__div .form .form__control i:nth-child(2) {
+  color: green;
+  right: -10px;
+}
+
+.form__div .form input {
+  width: 100%;
+  margin-top: 50px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+}
+
+.form__div .form input:hover {
+  -webkit-box-shadow: 5px 5px 2px black;
+          box-shadow: 5px 5px 2px black;
+}
+
+.form__div .btn {
+  width: 110%;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: forestgreen;
+}
+
+.form__div .btn:hover {
+  background-color: black !important;
+  color: gold;
+  border-radius: 5px;
+  border: 5px solid gold;
+}
+
+.title {
+  text-align: center;
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+}
+
+body {
+  background-color: violet;
+}
+
+.small {
+  font-size: 12px !important;
+  position: absolute;
+  bottom: -16px;
+  visibility: hidden;
+  color: red;
+}
+
+.congratulations {
+  background-color: violet;
+  width: 460px;
+  height: 1000px;
+  display: none;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+}
+
+.congratulations div {
+  text-align: justify;
+  font-size: 30px;
+}
+
+.congratulations button {
+  position: absolute;
+  top: 54%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.congratulations p {
+  margin-top: 50px;
+  font-size: 32px;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+
+.congratulations button {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.congratulations button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+.form__eror {
+  width: 460px;
+  height: 1000px;
+  display: none;
+  background-color: red;
+  z-index: 999;
+  position: fixed;
+  text-align: center;
+}
+
+.form__eror p {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.form__eror button {
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form__eror button:hover {
+  background-color: chartreuse;
+}
+
+.save {
+  visibility: hidden;
+  margin-top: 50px;
+  width: 110%;
+  height: 50px;
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.save:hover {
+  background-color: greenyellow;
+  -webkit-box-shadow: 15px 10px 10px black;
+          box-shadow: 15px 10px 10px black;
+}
+
+span {
+  position: absolute;
+  color: red;
+  bottom: 5px;
+  font-size: 22px;
+  padding: 6px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+span:hover {
+  top: 10px;
+  font-size: 12px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#plus {
+  visibility: visible;
+  right: -24%;
+  font-size: 22px;
+  bottom: 10%;
+  color: blue;
+}
+
+#plus:hover {
+  cursor: pointer;
+}
+
+.add {
+  position: relative;
+}
+
+.add i {
+  visibility: visible;
+  color: indigo;
+}
+
+.add #minus__email {
+  position: absolute;
+  top: 65%;
+  right: -24%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#okay, #erors {
+  position: absolute;
+  right: -5%;
+  font-size: 20px;
+  top: 55%;
+  color: green;
+  visibility: hidden;
+}
+
+#erors {
+  color: red;
+}
+
+.visibilit {
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */

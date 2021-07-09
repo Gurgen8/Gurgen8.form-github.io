@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <h1 class="title"> REGISTRATION FORM</h1>
+    <div class="congratulations"><p>Congratulations on your successful registration
+      on this site: Your personal information:</p>
+      <div class="user__name">    </div>
+      <div class="user__email"></div>
+      <div class="user__password"></div>
+      <div class="user__phone"></div>
+ 
+      <button class="finished">OK</button>
+    </div>
+    <div class="form__eror">
+      <h1>REGISTRATION IN FAILED</h1>
+      <p>Please Fill in your personal information completely and correctly</p>
+      <button class="fine">OK</button>
+    </div>
+    <div class="form__div">
+        <form  class="form">
+           
+            <div class="form__control">
+                <i id="eror1" class="fas fa-exclamation-circle"></i>
+                <i id="ok1" class="fas fa-check-circle"></i> 
+                <small id="message1" class="small">ERROR</small>
+               <input type="text"  placeholder="YOUR NAME" id="your__name">
+           </div>
+           <div id="email"  class="form__control email">
+              <i id="eror2" class="fas fa-exclamation-circle"></i>
+              <i id="ok2" class="fas fa-check-circle"></i> 
+              <small id="message2" class="small">ERROR</small>
+             <input type="email" placeholder="YOUR EMAIL" id="your__email"> 
+             <i id="plus" class="fas fa-plus-square"></i>
+  
+           </div>
+          
+           <div class="form__control">
+            <i id="eror3" class="fas fa-exclamation-circle"></i>
+            <i id="ok3" class="fas fa-check-circle"></i> 
+            <small id="message3" class="small">ERROR</small>
+           <input type="password"  placeholder="YOUR PASSWORD" id="your__password"> 
+         </div>
+         <div class="form__control">
+            <i id="eror4" class="fas fa-exclamation-circle"></i>
+            <i id="ok4" class="fas fa-check-circle"></i> 
+            <small id="message4" class="small">ERROR</small>
+           <input type="text"  placeholder="YOUR PHONE" id="your__phone">
+         </div>
+          <button  class="btn"> SUBMIT</button>
+          <button class="save" type="submit"> save</button>
+        </form>
+    </div>
+    <script  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script  src="js/script.js"></script>
+     <script src="action/js/script.js"></script>
+</body>
+</html>
